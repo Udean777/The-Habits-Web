@@ -31,10 +31,10 @@
         <a href="#pricing" class="text-slate-600 hover:text-slate-900 transition-colors">
           Pricing
         </a>
-        <Button variant="outline" class="mr-2 bg-transparent">
+        <Button href="/auth/login" variant="outline" class="mr-2 bg-transparent">
           Sign In
         </Button>
-        <Button class="bg-emerald-600 hover:bg-emerald-700">Get Started</Button>
+        <Button href="/auth/register" class="bg-emerald-600 hover:bg-emerald-700">Get Started</Button>
       </div>
 
       <!-- Mobile menu button -->
@@ -62,8 +62,8 @@
             Pricing
           </a>
           <div class="flex flex-col space-y-2 pt-4">
-            <Button variant="outline">Sign In</Button>
-            <Button class="bg-emerald-600 hover:bg-emerald-700">Get Started</Button>
+            <Button href="/auth/login" variant="outline">Sign In</Button>
+            <Button href="/auth/register" class="bg-emerald-600 hover:bg-emerald-700">Get Started</Button>
           </div>
         </div>
       </div>
